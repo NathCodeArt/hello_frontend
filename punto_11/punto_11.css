@@ -1,0 +1,107 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+/* ipografía */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;800&display=swap');
+
+/*Estilos*/
+body {
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+h1 {
+    font-size: 70px;
+    color: #f1f1f1;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+h2 {
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+/*Animación 1*/
+.div_1 {
+    width: 50px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes example1 {
+    0% {
+        background-color: red;
+        left: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+    }
+}
+/*Animación 2*/
+.div_2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes example2 {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: blue;
+        left: 0px;
+        top: 200px;
+    }
+    50% {
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+/*Firma */
+.footer_nombre {
+    color: #cecece;
+    margin: 20px 40px 40px;
+    padding: 10px;
+    background-color: #040527;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

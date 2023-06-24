@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;800&display=swap');
+
+/*Contenido*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}  
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.form-text {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group ion-icon {
+    margin-right: 10px;
+    color: #888;
+}
+.form-control {
+    border-radius: 5px;
+}
+.input-group-text {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+.register-link,
+.mb2-account {
+  text-align: center;
+  margin-top: 10px;
+  color: #888;
+}
+.register-link a {
+    color: #007bff;
+}
+/*pantallas pequeñas*/
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+/*pantallas medianas y grandes*/
+@media (min-width: 576px) {
+    .container {
+        max-width: 500px;
+    }
+}

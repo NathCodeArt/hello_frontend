@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;800&display=swap');
+/* Contenido */
+body {
+    background-color: #1c1c1c;
+}
+h1 {
+    margin-top: 10px;
+    text-align: justify;
+    color: #1d1d1d;
+}
+a {
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: justify;
+    color: #3a3a3a;
+}
+.container {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 40px;
+    width: 30%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*enlaces*/
+#enlace_1 {
+    color: #dbc337; /* Color normal */
+}
+#enlace_1 :hover{
+    color: #3799db; /* Color al pasar por encima */
+}
+#enlace_2 {
+    color: #6837db; /* Color normal */
+}
+#enlace_2 :hover{
+    color: #3799db; /* Color al pasar por encima */
+}
+    /* Firma */
+    .footer_nombre {
+        color: #cecece;
+        margin: 20px 40px 70px;
+        padding: 10px;
+        background-color: #2c2c2c;
+        border-radius: 5px;
+    }

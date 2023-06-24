@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;800&display=swap');
+/* Contenido */
+body {
+    background-color: #1c1c1c;
+}
+p {
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: justify;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+.container {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 40px;
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Textos */
+#t1 {
+    color: #25d893;
+    text-decoration: underline;
+}
+#t2 {
+    color: #f00404;
+    font-weight: bold;
+}
+/* dado que no se puede hacer un doble subrallado, se ralizo con un boton*/
+#t3 {
+    position: relative;
+    display: inline-block;
+}
+#t3::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid;
+}
+#t3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid;
+}
+
+#t4 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #141414;
+}
+#t5 {
+    font-weight: bold;
+    color: #254fd8;
+    line-height: 2.5;
+}
+#t6 {
+    font-weight: bold;
+    color: #e00808;
+    line-height: 2.5;
+}
+/* Firma */
+.footer_nombre {
+    color: #cecece;
+    margin: 20px 40px 70px;
+    padding: 10px;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+}

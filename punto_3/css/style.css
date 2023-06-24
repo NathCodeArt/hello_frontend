@@ -1,0 +1,192 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; 
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+h1{
+    font-size: 90px;
+}
+h3{
+    font-size: 23px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+h2{
+    font-size: 26px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+h4{
+    font-size: 23px;
+    margin-top: 23px;
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.404);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+h6{
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rgb(255, 255, 255);
+    font-weight: inherit;
+    position: relative;
+    z-index: 2;
+}
+#title_1{
+    margin: 100px 150px;
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: lighter;
+    position: relative;
+    z-index: 2;
+}
+#title_2{
+    margin-left: 150px;
+    margin-top: -110px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    font-size: 90px;
+    z-index: 2;
+}
+/*ESTILOS DEL HEADER*/
+body{
+    background-color: #020917;
+}
+header{
+    background-color: #081730;
+    height: 100vh;
+    border-left: 150px;
+    border-radius: 0px 0px 1000px 25px;  
+}
+header nav{
+    height: 75px;
+    width: 600px;
+    margin-top: 38px;
+    float: right;
+    margin-right: 200px;
+}
+header nav li{
+    padding-right: 60px;
+    color: white;
+    list-style: none;
+}
+ul{
+    display: inline-flex;
+}
+header .logo_main{
+    height: 100px;
+    margin-left: 120px;
+}
+header .equalizer_header{
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 12%;
+    right: 15%;
+}
+
+header .phone_header{
+    height: 75%;
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    right: 12%;
+    filter: drop-shadow(0 12px 12px rgba(0, 0, 0, 0.7));
+}
+header nav ul img{
+    height: 20px;
+}
+/*activacion del menu*/
+header li:hover, li.active{
+    background-color: #E600FF;
+    transition: 4s;
+}
+.logos_apps{
+    margin: 30px 0px 0px 150px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+.logos_apps img{
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: -7px 22px 25px 0px rgba(0,0,0,0.75);
+}
+.logos_apps .google{
+    margin-left: 35px;
+}
+
+/*Sección de servicios*/
+#services{
+    height: 100vh;
+    
+}
+.separador{
+    margin: 60px auto;
+}
+.cont_servi{
+    width: 80%;
+    height: 450px;
+    margin: 20px 0px 0px 0%;
+    display: inline-flex;
+}
+.uni_serv{
+
+    margin: 30px;
+    height: 430px;
+    width: 400px;
+    background: #081730;
+    border-radius: 25px;
+    margin: auto;
+}
+.uni_serv img{
+    height: 55px;
+    vertical-align: middle;
+    margin: 10% auto; 
+}
+.uni_serv .sub{
+    font-size: 22px;
+    z-index: 2;
+}
+.uni_serv p{
+    font-size: 22px;
+    margin: 25px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.315);
+    z-index: 2;
+}
+.uni_serv a{
+    color: #E600FF;
+    position: relative;
+    bottom: -40px;
+    z-index: 2;
+}
+/*Firma*/
+.footer_nombre{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    padding-top: 10px;
+    background-color: #E600FF;
+    border: 5PX solid #fff;
+}

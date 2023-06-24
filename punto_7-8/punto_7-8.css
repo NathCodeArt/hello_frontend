@@ -1,0 +1,47 @@
+/*Punto 7*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;800&display=swap');
+
+/* Contenido */
+.p7_nav {
+    background-color: #fab7e9;
+    display: flex;
+    justify-content: center;
+}
+.p7_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p7_nav li {
+    padding: 12px;
+    list-style: none;
+}
+.p7_nav li:hover {
+    background-color: #3662c2;
+    transition: background-color 0.3s ease;
+    border-radius: 0px 0px 10px 10px;
+}
+.p7_nav a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+/* Firma */
+.footer_nombre {
+    position: fixed;
+    bottom: 20px; /* ajusta el valor según sea necesario */
+    left: 40px; /* ajusta el valor según sea necesario */
+    right: 40px; /* ajusta el valor según sea necesario */
+    color: #cecece;
+    margin: 0;
+    padding: 10px;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+}
